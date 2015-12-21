@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WO7-KC-fYd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <color key="backgroundColor" red="0.1803921568627451" green="0.20392156862745098" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZM-AP-dXm">
+                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                                <color key="backgroundColor" red="0.12549019607843137" green="0.14117647058823529" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Icon" translatesAutoresizingMaskIntoConstraints="NO" id="dGk-yR-Zxx">
+                                <rect key="frame" x="240" y="240" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="265-u7-zXh"/>
+                                    <constraint firstAttribute="height" constant="120" id="feE-bW-o3u"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dGk-yR-Zxx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1CZ-uH-dqr"/>
+                            <constraint firstItem="JZM-AP-dXm" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="9O5-Bx-sjk"/>
+                            <constraint firstItem="WO7-KC-fYd" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="DDj-Uh-DUg"/>
+                            <constraint firstItem="JZM-AP-dXm" firstAttribute="top" secondItem="WO7-KC-fYd" secondAttribute="bottom" id="MOE-kJ-qTy"/>
+                            <constraint firstItem="dGk-yR-Zxx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QOv-ID-u56"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="JZM-AP-dXm" secondAttribute="bottom" id="UhL-aX-kPe"/>
+                            <constraint firstAttribute="trailing" secondItem="JZM-AP-dXm" secondAttribute="trailing" id="Uq0-1R-jtD"/>
+                            <constraint firstItem="JZM-AP-dXm" firstAttribute="height" secondItem="WO7-KC-fYd" secondAttribute="height" id="bLE-CT-3gT"/>
+                            <constraint firstAttribute="trailing" secondItem="WO7-KC-fYd" secondAttribute="trailing" id="cgq-1z-m8z"/>
+                            <constraint firstItem="WO7-KC-fYd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="uBP-wT-smb"/>
+                            <constraint firstItem="JZM-AP-dXm" firstAttribute="width" secondItem="WO7-KC-fYd" secondAttribute="width" id="xnb-2q-ycd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Launch Icon" width="120" height="120"/>
+    </resources>
+</document>
